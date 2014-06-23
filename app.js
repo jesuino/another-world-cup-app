@@ -11,6 +11,12 @@ Definitions
 var FXML_URL = "view.fxml"
 var CACHED_DATA_URL = "matches.json"
 var MATCHES_DATA_URL = "http://worldcup.sfg.io/matches";
+
+/*
+Global
+*/
+var imgCache = new Object()
+
 /*
 Main program
 */
@@ -18,7 +24,7 @@ print("Welcome!!! We are starting the app, please wait a minute........");
 var matches = downloadMatchesInfo()
 var app = FXMLLoader.load(new java.io.File(FXML_URL).toURI().toURL())
 $STAGE.scene = new javafx.scene.Scene(app)
-$STAGE.height = 700
+$STAGE.height = 750
 $STAGE.width = 1250
 $STAGE.title = "Another World Cup App"
 $STAGE.show()
@@ -49,13 +55,16 @@ function downloadMatchesInfo(){
 
 function fillMatch(match){
 	var viewMatch = $STAGE.scene.lookup("#match_" + match.match_number)
-	if(viewMatch && match.status != "future"){
+	if(viewMatch && match.home_team.country){
 		var homeTeamImgUrl = "./images/teams/" + match.home_team.code.toLowerCase() + ".png"
 		var awayTeamImgUrl = "./images/teams/" + match.away_team.code.toLowerCase() + ".png"
-		print(homeTeamImgUrl)
-		viewMatch.children[0].image = new javafx.scene.image.Image(new java.io.FileInputStream(homeTeamImgUrl))
-		viewMatch.children[1].text = match.home_team.goals;	
-		viewMatch.children[3].text = match.away_team.goals;	
-		viewMatch.children[4].image = new javafx.scene.image.Image(new java.io.FileInputStream(awayTeamImgUrl))
+		if(!imgCache[homeTeamImgUrl])
+			imgCache[homeTeamImgUrl] = new javafx.scene.image.Image(new java.io.FileInputStream(homeTeamImgUrl))
+		if(!imgCache[awayTeamImgUrl])
+			imgCache[awayTeamImgUrl] = new javafx.scene.image.Image(new java.io.FileInputStream(awayTeamImgUrl))
+		viewMatch.children[0].image = imgCache[homeTeamImgUrl]
+		viewMatch.children[1].text = match.status == "future"? "_": match.home_team.goals;	
+		viewMatch.children[3].text = match.status == "future"? "_": match.away_team.goals;	
+		viewMatch.children[4].image = imgCache[awayTeamImgUrl]
 	}
 }
