@@ -688,6 +688,7 @@
                     </AnchorPane>
                   </content>
                 </TitledPane>
+                <Pane prefHeight="200.0" prefWidth="883.0" />
               </children>
             </VBox>
             <VBox prefHeight="200.0" prefWidth="100.0" spacing="80.0">
@@ -802,7 +803,7 @@
                 </TitledPane>
               </children>
             </VBox>
-            <VBox prefHeight="223.0" prefWidth="131.0" spacing="20.0">
+            <VBox prefHeight="223.0" prefWidth="131.0" spacing="15.0">
               <children>
                 <TitledPane animated="false" collapsible="false" minWidth="131.0" prefHeight="52.0" prefWidth="131.0" text="Game 51">
                   <content>
@@ -1368,6 +1369,7 @@
             </VBox>
           </children>
         </HBox>
+        <Pane fx:id="match_details" layoutX="151.0" layoutY="268.0" prefHeight="398.0" prefWidth="885.0" />
       </children>
     </AnchorPane>
     <Text layoutX="208.0" layoutY="32.0" scaleX="1.4802236734170078" scaleY="0.7445190156599553" strokeType="OUTSIDE" strokeWidth="0.0" text="The matches of the 2014 FIFA World Cup Brazil" textAlignment="CENTER">
