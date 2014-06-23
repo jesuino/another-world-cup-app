@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1231.0" xmlns:fx="http://javafx.com/fxml">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="1231.0" xmlns:fx="http://javafx.com/fxml">
   <children>
     <AnchorPane id="AnchorPane" layoutX="16.0" layoutY="55.0">
       <children>
@@ -126,308 +126,324 @@
         </TitledPane>
         <HBox id="HBox" alignment="CENTER" layoutX="0.0" layoutY="0.0" spacing="20.0">
           <children>
-            <VBox prefHeight="444.0" prefWidth="127.0" spacing="15.0">
+            <VBox prefHeight="599.0" prefWidth="131.0" spacing="15.0">
               <children>
-                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="130.0" prefWidth="127.0" text="Group A">
+                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="140.0" prefWidth="135.0" text="Group A">
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="104.0" prefWidth="131.0">
                       <children>
-                        <HBox fx:id="match_1" layoutX="12.0" layoutY="6.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                        <VBox id="VBox" alignment="CENTER" layoutX="11.0" layoutY="6.0" prefHeight="83.0" spacing="10.0">
                           <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
+                            <HBox fx:id="match_1" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox fx:id="match_2" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" fx:id="match_4" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox fx:id="match_5" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" scaleX="0.9999956004297567" scaleY="0.9999933918432232" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
                           </children>
-                        </HBox>
-                        <HBox fx:id="match_2" layoutX="11.0" layoutY="32.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox fx:id="match_3" layoutX="11.0" layoutY="81.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox id="match_3" fx:id="match_4" layoutX="12.0" layoutY="55.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
+                        </VBox>
                       </children>
                     </AnchorPane>
                   </content>
                 </TitledPane>
-                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="130.0" prefWidth="127.0" text="Group A">
+                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="140.0" prefWidth="135.0" text="Group A">
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="104.0" prefWidth="131.0">
                       <children>
-                        <HBox layoutX="12.0" layoutY="6.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                        <VBox id="VBox" alignment="CENTER" layoutX="11.0" layoutY="6.0" prefHeight="83.0" spacing="10.0">
                           <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
+                            <HBox id="match_1" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_2" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
                           </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="32.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="81.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="12.0" layoutY="55.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
+                        </VBox>
                       </children>
                     </AnchorPane>
                   </content>
                 </TitledPane>
-                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="130.0" prefWidth="127.0" text="Group A">
+                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="140.0" prefWidth="135.0" text="Group A">
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="104.0" prefWidth="131.0">
                       <children>
-                        <HBox layoutX="12.0" layoutY="6.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                        <VBox id="VBox" alignment="CENTER" layoutX="11.0" layoutY="6.0" prefHeight="83.0" spacing="10.0">
                           <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
+                            <HBox id="match_1" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_2" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
                           </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="32.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="81.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="12.0" layoutY="55.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
+                        </VBox>
                       </children>
                     </AnchorPane>
                   </content>
                 </TitledPane>
-                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="130.0" prefWidth="127.0" text="Group A">
+                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="140.0" prefWidth="135.0" text="Group A">
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="104.0" prefWidth="131.0">
                       <children>
-                        <HBox layoutX="12.0" layoutY="6.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                        <VBox id="VBox" alignment="CENTER" layoutX="11.0" layoutY="6.0" prefHeight="83.0" spacing="10.0">
                           <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
+                            <HBox id="match_1" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_2" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
                           </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="32.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="81.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="12.0" layoutY="55.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
+                        </VBox>
                       </children>
                     </AnchorPane>
                   </content>
@@ -754,308 +770,324 @@
                 </TitledPane>
               </children>
             </VBox>
-            <VBox prefHeight="444.0" prefWidth="127.0" spacing="15.0">
+            <VBox prefHeight="599.0" prefWidth="131.0" spacing="15.0">
               <children>
-                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="130.0" prefWidth="127.0" text="Group A">
+                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="140.0" prefWidth="135.0" text="Group A">
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="104.0" prefWidth="131.0">
                       <children>
-                        <HBox id="match_1" layoutX="12.0" layoutY="6.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                        <VBox id="VBox" alignment="CENTER" layoutX="11.0" layoutY="6.0" prefHeight="83.0" spacing="10.0">
                           <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
+                            <HBox id="match_1" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_2" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
                           </children>
-                        </HBox>
-                        <HBox id="match_2" layoutX="11.0" layoutY="32.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox id="match_3" layoutX="11.0" layoutY="81.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox id="match_3" layoutX="12.0" layoutY="55.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
+                        </VBox>
                       </children>
                     </AnchorPane>
                   </content>
                 </TitledPane>
-                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="130.0" prefWidth="127.0" text="Group A">
+                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="140.0" prefWidth="135.0" text="Group A">
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="104.0" prefWidth="131.0">
                       <children>
-                        <HBox layoutX="12.0" layoutY="6.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                        <VBox id="VBox" alignment="CENTER" layoutX="11.0" layoutY="6.0" prefHeight="83.0" spacing="10.0">
                           <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
+                            <HBox id="match_1" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_2" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
                           </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="32.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="81.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="12.0" layoutY="55.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
+                        </VBox>
                       </children>
                     </AnchorPane>
                   </content>
                 </TitledPane>
-                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="130.0" prefWidth="127.0" text="Group A">
+                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="140.0" prefWidth="135.0" text="Group A">
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="104.0" prefWidth="131.0">
                       <children>
-                        <HBox layoutX="12.0" layoutY="6.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                        <VBox id="VBox" alignment="CENTER" layoutX="11.0" layoutY="6.0" prefHeight="83.0" spacing="10.0">
                           <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
+                            <HBox id="match_1" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_2" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
                           </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="32.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="81.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="12.0" layoutY="55.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
+                        </VBox>
                       </children>
                     </AnchorPane>
                   </content>
                 </TitledPane>
-                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="130.0" prefWidth="127.0" text="Group A">
+                <TitledPane animated="false" collapsible="false" minWidth="127.0" prefHeight="140.0" prefWidth="135.0" text="Group A">
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="104.0" prefWidth="131.0">
                       <children>
-                        <HBox layoutX="12.0" layoutY="6.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                        <VBox id="VBox" alignment="CENTER" layoutX="11.0" layoutY="6.0" prefHeight="83.0" spacing="10.0">
                           <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
+                            <HBox id="match_1" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_2" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
+                            <HBox id="match_3" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
+                              <children>
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
+                                <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                  <image>
+                                    <Image url="@images/no_team.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </HBox>
                           </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="32.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="11.0" layoutY="81.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
-                        <HBox layoutX="12.0" layoutY="55.0" prefHeight="23.0" prefWidth="101.0" spacing="5.0">
-                          <children>
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <Text font="$x1" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER" wrappingWidth="22.7294921875" />
-                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="00" />
-                            <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                              <image>
-                                <Image url="@images/no_team.png" />
-                              </image>
-                            </ImageView>
-                          </children>
-                        </HBox>
+                        </VBox>
                       </children>
                     </AnchorPane>
                   </content>
