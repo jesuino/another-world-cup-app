@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jre8\bin\jjs" -fx app.js
