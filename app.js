@@ -56,6 +56,8 @@ stadiumsUrl["Estadio Nacional"] = "mane.jpg"
 stadiumsUrl["Estadio Mineirao"] = "mineirao.jpg"
 stadiumsUrl["Arena Pantanal"] = "pantanal.jpg"
 stadiumsUrl["Arena Pernambuco"] = "pernambuco.jpg"
+fillMatchDetails(matches[0])
+
 /*
 Functions
 */
