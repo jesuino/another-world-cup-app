@@ -9,9 +9,10 @@ Definitions
 */
 
 var FXML_URL = "view.fxml"
+var FXML_DETAIL_URL = "match_details.fxml"
 var CACHED_DATA_URL = "matches.json"
 var MATCHES_DATA_URL = "http://worldcup.sfg.io/matches";
-
+var CSS_URL = "app.css"
 /*
 Global
 */
@@ -22,12 +23,15 @@ Main program
 */
 print("Welcome!!! We are starting the app, please wait a minute........");
 var matches = downloadMatchesInfo()
-var app = FXMLLoader.load(new java.io.File(FXML_URL).toURI().toURL())
+var app = FXMLLoader.load(getUrl(FXML_URL))
+var matchDetail = FXMLLoader.load(getUrl(FXML_DETAIL_URL))
 $STAGE.scene = new javafx.scene.Scene(app)
+$STAGE.scene.stylesheets.add(getUrl(CSS_URL).toString())
 $STAGE.height = 750
 $STAGE.width = 1250
 $STAGE.title = "Another World Cup App"
 $STAGE.show()
+$STAGE.scene.lookup("#match_details").children.add(matchDetail)
 for(var i = 0; i < matches.length; i++){
 	fillMatch(matches[i]);
 }
@@ -35,6 +39,9 @@ for(var i = 0; i < matches.length; i++){
 /*
 Functions
 */
+function getUrl(resource){
+	return new java.io.File(resource).toURI().toURL()
+}
 function downloadMatchesInfo(){
 	print("Trying to download the matches information.........")
 	var out, scanner
@@ -56,15 +63,25 @@ function downloadMatchesInfo(){
 function fillMatch(match){
 	var viewMatch = $STAGE.scene.lookup("#match_" + match.match_number)
 	if(viewMatch && match.home_team.country){
-		var homeTeamImgUrl = "./images/teams/" + match.home_team.code.toLowerCase() + ".png"
-		var awayTeamImgUrl = "./images/teams/" + match.away_team.code.toLowerCase() + ".png"
-		if(!imgCache[homeTeamImgUrl])
-			imgCache[homeTeamImgUrl] = new javafx.scene.image.Image(new java.io.FileInputStream(homeTeamImgUrl))
-		if(!imgCache[awayTeamImgUrl])
-			imgCache[awayTeamImgUrl] = new javafx.scene.image.Image(new java.io.FileInputStream(awayTeamImgUrl))
-		viewMatch.children[0].image = imgCache[homeTeamImgUrl]
+		viewMatch.children[0].image = getImg(match.away_team.code)
 		viewMatch.children[1].text = match.status == "future"? "_": match.home_team.goals;	
 		viewMatch.children[3].text = match.status == "future"? "_": match.away_team.goals;	
-		viewMatch.children[4].image = imgCache[awayTeamImgUrl]
+		viewMatch.children[4].image = getImg(match.home_team.code)
 	}
+	viewMatch.onMouseClicked = function(e){
+		fillMatchDetails(match)
+	}
+}
+
+function getImg(code){
+	var imgUrl = code?"./images/teams/" + code.toLowerCase() + ".png":"./images/no_team.png"
+	if(!imgCache[imgUrl])
+		imgCache[imgUrl] = new javafx.scene.image.Image(new java.io.FileInputStream(imgUrl))
+	return imgCache[imgUrl]
+
+}
+function fillMatchDetails(match){
+	var s = $STAGE.scene;
+	s.lookup("#match_home_team").image = getImg(match.home_team.code)
+	s.lookup("#match_away_team").image = getImg(match.away_team.code)
 }

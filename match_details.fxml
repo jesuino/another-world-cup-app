@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <ImageView fx:id="match_flag" fitHeight="112.0" fitWidth="224.0" layoutX="23.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow color="#0052cc" height="126.41338582677166" radius="64.46358267716536" spread="0.3937007874015748" width="133.44094488188978" />
+      </effect>
+      <image>
+        <Image url="@images/stadiums/maracana.jpg" />
+      </image>
+    </ImageView>
+    <VBox layoutX="272.0" layoutY="55.0" prefHeight="262.0" prefWidth="587.0" spacing="10.0">
+      <children>
+        <HBox alignment="CENTER" prefHeight="71.0" prefWidth="498.0" spacing="20.0">
+          <children>
+            <ImageView fx:id="match_home_team" fitHeight="67.68571441475002" fitWidth="103.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@images/no_team.png" />
+              </image>
+            </ImageView>
+            <Label fx:id="match_home_score" alignment="CENTER_RIGHT" prefHeight="65.25" prefWidth="60.0" text="5">
+              <font>
+                <Font size="30.0" fx:id="x1" />
+              </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="81.75" prefWidth="58.0" text="X" textAlignment="LEFT" textFill="RED">
+              <font>
+                <Font name="System Bold" size="40.0" />
+              </font>
+            </Label>
+            <Label fx:id="match_away_score" font="$x1" prefHeight="65.25" prefWidth="60.0" text="5" />
+            <ImageView fx:id="match_away_team" fitHeight="67.68571441475002" fitWidth="103.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@images/no_team.png" />
+              </image>
+            </ImageView>
+          </children>
+          <effect>
+            <Reflection fraction="0.24606299212598426" topOpacity="0.2952755905511811" />
+          </effect>
+        </HBox>
+        <Label alignment="CENTER" prefWidth="587.0" text="2014-06-16T13:00" textAlignment="CENTER">
+          <font>
+            <Font name="System Bold Italic" size="20.0" fx:id="x2" />
+          </font>
+        </Label>
+        <Label alignment="CENTER" prefWidth="587.0" text="match completed">
+          <font>
+            <Font name="System Italic" size="13.0" />
+          </font>
+        </Label>
+        <HBox alignment="TOP_CENTER" prefHeight="271.0" prefWidth="587.0" spacing="100.0">
+          <children>
+            <ListView fx:id="match_home_events" prefHeight="200.0" prefWidth="229.0" />
+            <ListView fx:id="match_away_events" prefHeight="240.0" prefWidth="229.0" />
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+    <Label font="$x2" layoutX="23.0" layoutY="241.0" prefWidth="224.0" text="Maracana Stadium" />
+  </children>
+</AnchorPane>

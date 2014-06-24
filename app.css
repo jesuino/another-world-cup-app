@@ -1,0 +1,12 @@
+.root{
+	-fx-base: yellow;
+	-fx-background: rgb(50, 200, 50);
+}
+#match_details{
+	-fx-background-color: rgb(100, 255, 100);
+}
+.match:hover{
+	-fx-font: bold 12pt "Arial";
+	-fx-effect: dropshadow( one-pass-box , blue, 20, 0.4 , 0 , 0 );
+	-fx-cursor: hand;
+}
