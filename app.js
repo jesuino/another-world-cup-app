@@ -2,6 +2,7 @@
 Imports
 */
 var FXMLLoader = Java.type('javafx.fxml.FXMLLoader');
+var FadeTransition= Java.type('javafx.animation.FadeTransition');
 
 
 /*
@@ -17,7 +18,7 @@ var CSS_URL = "app.css"
 Global
 */
 var imgCache = new Object()
-
+var detailsTransition = new FadeTransition(javafx.util.Duration.millis(1000));
 /*
 Main program
 */
@@ -35,7 +36,10 @@ $STAGE.scene.lookup("#match_details").children.add(matchDetail)
 for(var i = 0; i < matches.length; i++){
 	fillMatch(matches[i]);
 }
-
+detailsTransition.fromValue = 0.0
+detailsTransition.toValue = 1.0
+detailsTransition.cycleCount = 1
+detailsTransition.node = matchDetail
 /*
 Functions
 */
@@ -82,6 +86,13 @@ function getImg(code){
 }
 function fillMatchDetails(match){
 	var s = $STAGE.scene;
+	detailsTransition.playFromStart()
+	var notPlayedScore = match.status == "completed"?"0":"_"
 	s.lookup("#match_home_team").image = getImg(match.home_team.code)
 	s.lookup("#match_away_team").image = getImg(match.away_team.code)
+	s.lookup("#match_home_score").text = match.home_team.goals?match.home_team.goals:notPlayedScore
+	s.lookup("#match_away_score").text = match.away_team.goals?match.away_team.goals:notPlayedScore
+	s.lookup("#match_status").text = "Match " + match.status
+	s.lookup("#match_time").text =  match.datetime.substring(0, 16)
+	s.lookup("#match_location").text =  match.location
 }

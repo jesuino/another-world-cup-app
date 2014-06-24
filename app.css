@@ -6,7 +6,7 @@
 	-fx-text-fill: red;
 }
 #match_details{
-	-fx-background-color: rgb(100, 255, 100);
+	-fx-background-color: rgb(50, 210, 50);
 }
 .match:hover{
 	-fx-font: bold 12pt "Arial";
