@@ -11,12 +11,12 @@
 
 <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="209.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml">
   <children>
-    <ImageView fx:id="match_flag" fitHeight="112.0" fitWidth="224.0" layoutX="40.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+    <ImageView fx:id="match_stadium" fitHeight="112.0" fitWidth="224.0" layoutX="40.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
       <effect>
-        <DropShadow color="#ccff00" height="131.68405511811025" radius="65.78125" spread="0.3937007874015748" width="133.44094488188978" />
+        <DropShadow color="#ccff00" height="133.22133366141733" radius="66.16556963582678" spread="0.3937007874015748" width="133.44094488188978" />
       </effect>
       <image>
-        <Image url="@images/stadiums/maracana.jpg" />
+        <Image url="@images/stadiums/maraca.jpg" />
       </image>
     </ImageView>
     <VBox layoutX="272.0" layoutY="21.0" prefHeight="170.0" prefWidth="587.0" spacing="10.0">

@@ -1,15 +1,15 @@
 .root{
-	-fx-base: yellow;
-	-fx-background: rgb(50, 200, 50);
+	-fx-base: CornflowerBlue;
+	-fx-background: rgb(227,231,239);
 }
 .TitledPane{
-	-fx-text-fill: red;
+	-fx-text-fill: FIREBRICK;
 }
 #match_details{
-	-fx-background-color: rgb(50, 210, 50);
+	-fx-background-color: rgb(177,174,218);
 }
 .match:hover{
-	-fx-font: bold 12pt "Arial";
-	-fx-effect: dropshadow( one-pass-box , blue, 20, 0.4 , 0 , 0 );
+	-fx-font: bold 12pt "Calibri";
+	-fx-effect: dropshadow(three-pass-box , blue, 20, 0.4 , 0 , 0 );
 	-fx-cursor: hand;
 }
