@@ -2,6 +2,9 @@
 	-fx-base: yellow;
 	-fx-background: rgb(50, 200, 50);
 }
+.TitledPane{
+	-fx-text-fill: red;
+}
 #match_details{
 	-fx-background-color: rgb(100, 255, 100);
 }

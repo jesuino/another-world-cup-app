@@ -9,17 +9,17 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="209.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml">
   <children>
-    <ImageView fx:id="match_flag" fitHeight="112.0" fitWidth="224.0" layoutX="23.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+    <ImageView fx:id="match_flag" fitHeight="112.0" fitWidth="224.0" layoutX="23.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
       <effect>
-        <DropShadow color="#0052cc" height="126.41338582677166" radius="64.46358267716536" spread="0.3937007874015748" width="133.44094488188978" />
+        <DropShadow color="#ccff00" height="129.92716535433073" radius="65.34202755905513" spread="0.3937007874015748" width="133.44094488188978" />
       </effect>
       <image>
         <Image url="@images/stadiums/maracana.jpg" />
       </image>
     </ImageView>
-    <VBox layoutX="272.0" layoutY="55.0" prefHeight="262.0" prefWidth="587.0" spacing="10.0">
+    <VBox layoutX="272.0" layoutY="21.0" prefHeight="162.0" prefWidth="587.0" spacing="10.0">
       <children>
         <HBox alignment="CENTER" prefHeight="71.0" prefWidth="498.0" spacing="20.0">
           <children>
@@ -59,14 +59,9 @@
             <Font name="System Italic" size="13.0" />
           </font>
         </Label>
-        <HBox alignment="TOP_CENTER" prefHeight="271.0" prefWidth="587.0" spacing="100.0">
-          <children>
-            <ListView fx:id="match_home_events" prefHeight="200.0" prefWidth="229.0" />
-            <ListView fx:id="match_away_events" prefHeight="240.0" prefWidth="229.0" />
-          </children>
-        </HBox>
+        <HBox alignment="TOP_CENTER" prefHeight="271.0" prefWidth="587.0" spacing="100.0" />
       </children>
     </VBox>
-    <Label font="$x2" layoutX="23.0" layoutY="241.0" prefWidth="224.0" text="Maracana Stadium" />
+    <Label font="$x2" layoutX="23.0" layoutY="161.0" prefWidth="224.0" text="Maracana Stadium" />
   </children>
 </AnchorPane>
