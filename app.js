@@ -85,10 +85,10 @@ function downloadMatchesInfo(){
 function fillMatch(match){
 	var viewMatch = $STAGE.scene.lookup("#match_" + match.match_number)
 	if(viewMatch && match.home_team.country){
-		viewMatch.children[0].image = getTeamImg(match.away_team.code)
+		viewMatch.children[0].image = getTeamImg(match.home_team.code)
 		viewMatch.children[1].text = match.status == "future"? "_": match.home_team.goals;	
 		viewMatch.children[3].text = match.status == "future"? "_": match.away_team.goals;	
-		viewMatch.children[4].image = getTeamImg(match.home_team.code)
+		viewMatch.children[4].image = getTeamImg(match.away_team.code)
 	}
 	viewMatch.onMouseClicked = function(e){
 		fillMatchDetails(match)
