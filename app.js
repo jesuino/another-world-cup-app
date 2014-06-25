@@ -2,8 +2,7 @@
 Imports
 */
 var FXMLLoader = Java.type('javafx.fxml.FXMLLoader');
-var FadeTransition= Java.type('javafx.animation.FadeTransition');
-
+var FadeTransition = Java.type('javafx.animation.FadeTransition');
 
 /*
 Definitions
@@ -107,6 +106,8 @@ function fillMatchDetails(match){
 	s.lookup("#match_time").text =  match.datetime.substring(0, 16)
 	s.lookup("#match_location").text =  match.location
 	s.lookup("#match_stadium").image =  getStadiumImg(match.location)
+	s.lookup("#match_home_name").text =  match.home_team.country
+	s.lookup("#match_away_name").text =  match.away_team.country
 }
 
 function getTeamImg(code){
